@@ -282,5 +282,31 @@ code { font-family: 'JetBrains Mono', monospace; background: var(--border); padd
 @media (max-width: 600px) {
   .section { padding: 16px; }
   .topbar { padding: 14px 16px; }
+
+
+.input-wrap {
+  display: flex;
+  align-items: center;
+  background: #0b1220; /* optional */
+  padding: 10px 15px;
+  border-radius: 8px;
+  gap:12px;
+}
+
+.input-wrap .fi {
+  font-size: 16px;
+  margin-right: 25px; /* 👈 distance */
+  display: flex;
+  align-items: center;
+}
+
+.input-wrap input {
+  border: none;
+  outline: none;
+  background: transparent;
+  padding-left:20px;
+  color: white;
+  flex: 1;
+}
   .search-box { display: none; }
 }
